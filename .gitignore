@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Compiled files
+dist/
+out/
+
+# Miscellaneous
+.DS_Store

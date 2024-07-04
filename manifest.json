@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Display IP Address",
+  "version": "1.0",
+  "description": "Displays your IP address on Google search pages and European country-specific Google pages.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.com/*",
+        "*://*.google.at/*",
+        "*://*.google.be/*",
+        "*://*.google.bg/*",
+        "*://*.google.hr/*",
+        "*://*.google.cz/*",
+        "*://*.google.dk/*",
+        "*://*.google.ee/*",
+        "*://*.google.fi/*",
+        "*://*.google.fr/*",
+        "*://*.google.de/*",
+        "*://*.google.gr/*",
+        "*://*.google.hu/*",
+        "*://*.google.is/*",
+        "*://*.google.ie/*",
+        "*://*.google.it/*",
+        "*://*.google.lv/*",
+        "*://*.google.lt/*",
+        "*://*.google.lu/*",
+        "*://*.google.mt/*",
+        "*://*.google.nl/*",
+        "*://*.google.no/*",
+        "*://*.google.pl/*",
+        "*://*.google.pt/*",
+        "*://*.google.ro/*",
+        "*://*.google.sk/*",
+        "*://*.google.si/*",
+        "*://*.google.es/*",
+        "*://*.google.se/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
