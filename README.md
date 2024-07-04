@@ -1,5 +1,8 @@
 # Display IP Address on Google Pages
 
+![image](https://github.com/mmpantazi/DisplayIPAddressOnGoogle/assets/63082923/e9a7f0f7-0761-4207-945f-cef0c63b72a6)
+
+
 This browser extension displays your IP address on Google search pages and European country-specific Google pages.
 
 ## Features
@@ -11,7 +14,7 @@ This browser extension displays your IP address on Google search pages and Europ
 ## Installation
 
 1. **Download the Extension**
-   - Clone the repository: `git clone https://github.com/your-username/DisplayIPAddressOnGoogle.git`
+   - Clone the repository: `git clone https://github.com/mmpantazi/DisplayIPAddressOnGoogle.git`
    - Or download the ZIP file directly.
 
 2. **Install the Extension**
